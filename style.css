@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 5px;
-       cursor: pointer;
+    cursor: pointer;
        
 }
 .l:hover{
@@ -60,16 +60,36 @@ body {
     text-align: center;
     width: 20cm;
 }
-@media screen and (max-width: 768px) {
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.a{
+    width: 150px;
+   border: 1px solid black;
+   padding: 9px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+    cursor: pointer;
+    
+}
+.lien :hover{
+     background-color: rgb(175, 134, 175);
+}
+.lien{
+    margin: 20px;
+    height: 35px;
+ display: flex;
+ justify-content: center; 
+ gap: 200px;
+}
+@media screen and (min-width: 758px) {
     .hero{
-         display: block;
-        height: auto;
-    }
-    .head {
-      display: block;
-    }
-    .p ,.ha1 , .ha2{
-        flex-wrap: wrap;
+       align-content: center;
+       text-align: center;
     }
     
 }
