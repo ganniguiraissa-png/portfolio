@@ -60,3 +60,16 @@ body {
     text-align: center;
     width: 20cm;
 }
+@media screen and (max-width: 768px) {
+    .hero{
+         display: block;
+        height: auto;
+    }
+    .head {
+      display: block;
+    }
+    .p ,.ha1 , .ha2{
+        flex-wrap: wrap;
+    }
+    
+}
