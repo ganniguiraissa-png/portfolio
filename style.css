@@ -1,29 +1,29 @@
 body {
     margin: 0;
     padding: 0;
+    color: violet;
 }
 
 .hero {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to top left, rgb(129, 129, 204), rgb(227, 130, 227));
+    background-image: linear-gradient(to top left, rgb(56, 56, 178), rgb(149, 35, 149));
+    color: violet;
 }
 
 .head1 {
-    padding: 20px;
-    ;
-    margin: 30px;
-    border: 1px solid black;
-    border-radius: 30px;
-    height: 25px;
     gap: 35px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    color: violet;
+}
 
-
+.h {
+    display: flex;
+    flex-direction: column;
 }
 
 .l {
@@ -31,6 +31,7 @@ body {
     justify-content: center;
     padding: 5px;
     cursor: pointer;
+    font-size: 20px;
 
 }
 
@@ -47,23 +48,20 @@ body {
 
 }
 
-.h {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0px;
-}
-
-.ha1 {
-    padding: 0px;
-    ;
-    font-size: 48px;
-}
 
 .p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 60%;
+    font-size: 30px;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
 }
 
 a {
@@ -74,7 +72,7 @@ a {
 
 .a {
     width: 150px;
-    border: 1px solid black;
+    border: 1px solid violet;
     padding: 9px;
     border-radius: 20px;
     display: flex;
@@ -100,8 +98,6 @@ a {
     .hero {
         height: auto;
     }
-
-    .head,
     .head1 {
         flex-direction: column;
         align-items: center;
@@ -110,14 +106,13 @@ a {
     }
 
     .lien {
+        align-items: center;
         flex-direction: column;
         gap: 15px;
         height: auto;
     }
 
-    .ha1 {
-        text-align: center;
-    }
+   
 
 }
 
@@ -125,7 +120,7 @@ a {
 
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to top left, rgb(129, 129, 204), rgb(227, 130, 227));
+    background-image: linear-gradient(to top left, rgb(56, 56, 178), rgb(149, 35, 149));
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -140,7 +135,7 @@ a {
 
 .vl {
     width: 1px;
-    background-color: black;
+    background-color: violet;
     height: 70vh;
 }
 
@@ -150,11 +145,16 @@ a {
     gap: 100px;
     height: 70vh;
 
+
+}
+
+.formation :hover {
+    background-color: rgb(175, 134, 175);
 }
 
 .f1 {
     width: 250px;
-    border: 1px solid black;
+    border: 1px solid violet;
     border-radius: 30px;
     padding: 10px;
     align-self: start;
@@ -163,7 +163,7 @@ a {
 
 .f2 {
     width: 250px;
-    border: 1px solid black;
+    border: 1px solid violet;
     border-radius: 30px;
     padding: 10px;
     align-self: end;
@@ -173,51 +173,96 @@ a {
 .c {
     align-content: center;
 }
+
 @media (max-width: 768px) {
-    .hero2{
+    .hero2 {
         height: auto;
 
-    }  
-    .formation{
+    }
+
+    .formation {
         flex-direction: column;
         gap: 15px;
         margin: 5px;
     }
-    .vl{
+
+    .vl {
         width: 0px;
     }
-     
+
 }
 
 .hero3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to top left, rgb(129, 129, 204), rgb(227, 130, 227));
+    background-image: linear-gradient(to top left, rgb(56, 56, 178), rgb(149, 35, 149));
 
 }
 
 .pre {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 50vh;
+    padding: 200px;
 }
 
-.ti2 {
-    margin-top: 0;
-    font-size: 50px;
-
-
+.vl1 {
+    width: 5px;
+    background-color: violet;
+    height: 20vh;
 }
 
-.ti3 {
-    margin: 100px;
-    font-size: 70px;
+.pre1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
 
 }
 
 .ti4 {
+    font-size: 30px;
+}
+
+.ti3 {
     font-size: 70px;
+}
+
+.ti2 {
+    font-size: 30px;
+}
+
+.pre2 {
+    width: 150px;
+    border: 1px solid violet;
+    padding: 9px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+}
+
+.pre2:hover {
+    background-color: rgb(175, 134, 175);
+}
+
+@media (max-width: 768px) {
+    .hero3 {
+        height: auto;
+    }
+
+    .pre1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .vl1 {
+        width: 0px;
+    }
 
 }
