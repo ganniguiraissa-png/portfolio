@@ -120,3 +120,104 @@ a {
     }
 
 }
+
+.hero2 {
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top left, rgb(129, 129, 204), rgb(227, 130, 227));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ti {
+    margin-top: 0;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.vl {
+    width: 1px;
+    background-color: black;
+    height: 70vh;
+}
+
+.formation {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 70vh;
+
+}
+
+.f1 {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    align-self: start;
+
+}
+
+.f2 {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    align-self: end;
+
+}
+
+.c {
+    align-content: center;
+}
+@media (max-width: 768px) {
+    .hero2{
+        height: auto;
+
+    }  
+    .formation{
+        flex-direction: column;
+        gap: 15px;
+        margin: 5px;
+    }
+    .vl{
+        width: 0px;
+    }
+    
+}
+
+.hero3 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top left, rgb(129, 129, 204), rgb(227, 130, 227));
+
+}
+
+.pre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 50vh;
+}
+
+.ti2 {
+    margin-top: 0;
+    font-size: 50px;
+
+
+}
+
+.ti3 {
+    margin: 100px;
+    font-size: 70px;
+
+}
+
+.ti4 {
+    font-size: 70px;
+
+}
