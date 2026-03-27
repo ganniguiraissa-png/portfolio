@@ -105,5 +105,8 @@ a{
         gap: 15px;
         height: auto;
     }
+    .h{
+        text-align: center;
+    }
 
 }
