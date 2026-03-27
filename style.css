@@ -100,12 +100,6 @@ a{
         gap: 15px;
         height: auto;
     }
-
-    .ha1,.ha2,.p {
-      
-        text-align: center;
-    }
-   
     .lien {
         flex-direction: column;
         gap: 15px;
