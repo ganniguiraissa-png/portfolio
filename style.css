@@ -254,15 +254,17 @@ a {
     .page {
         height: auto;
     }
+     .vl1 {
+        width: 0px;
+    }
 
     .pre1 {
         display: flex;
         flex-direction: column;
-        padding: 0;
+        text-align: center;
+        gap: 0;
     }
 
-    .vl1 {
-        width: 0px;
-    }
+   
 
 }
