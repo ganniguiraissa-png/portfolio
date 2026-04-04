@@ -27,9 +27,17 @@ body {
 }
 
 .head1 {
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid violet;
+    border-radius: 20px;
     gap: 35px;
     display: flex;
     justify-content: center;
+    position: fixed;
+     background-image: linear-gradient(to top left, rgb(73, 73, 152), rgb(148, 83, 148));
+   
 
 }
 
@@ -48,10 +56,7 @@ body {
 
 }
 
-.l:hover {
-    border-radius: 30px;
-    background-color: rgb(175, 134, 175);
-}
+
 
 .head {
 
@@ -118,10 +123,11 @@ a {
     }
 
     .head1 {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        height: auto;
+       display: flex;
+       justify-content: center;
+        width: 450px;
+        gap: 0;
+       size: 3px;
 
     }
 
@@ -147,6 +153,7 @@ a {
 }
 
 .ti {
+  
     margin-top: 0;
     font-size: 48px;
     display: flex;
@@ -154,7 +161,7 @@ a {
 }
 
 .vl {
-    width: 1px;
+    width: 2px;
     background-color: violet;
     height: 70vh;
 }
@@ -201,6 +208,7 @@ a {
 @media (max-width: 768px) {
     .hero2 {
         height: auto;
+        padding-bottom: 15px;
 
 
     }
@@ -218,7 +226,11 @@ a {
     }
 
     .vl {
-        width: 0px;
+        width: 2px;
+    }
+    .f1 , .f2 {
+        width: 150px;
+
     }
 
 }
@@ -227,6 +239,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to top left, rgb(56, 56, 178), rgb(149, 35, 149));
@@ -358,7 +371,7 @@ a {
 @media (max-width: 768px) {
     .hero3 {
         height: auto;
-      
+        padding-bottom: 15px;
         
     }
     .ligne1{
@@ -376,4 +389,57 @@ a {
    }
 
 
+}
+.hero4{
+    height: 100%;
+    background-image: linear-gradient(to top left, rgb(56, 56, 178), rgb(149, 35, 149));
+}
+.pr{
+    margin: 15px;
+    width: 300px; 
+    height: 500px;
+    border: 1px solid violet;
+    padding: 8px;
+    border-radius: 30px;
+    box-shadow: 3px 2px 4px rgb(130, 45, 130);
+    background-color: rgb(130, 64, 130); 
+}
+.pro{
+    display: flex;
+    justify-content: space-around; 
+}
+@media (max-width: 768px) {
+    .hero4 {
+        height: auto;  
+    }
+    .pro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pr{
+        width: 250px;
+        height: 300px;
+    }
+}
+.hero5{
+    background-image: linear-gradient(to top left, rgb(56, 56, 178), rgb(149, 35, 149));
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 15px;
+
+}
+.co{
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .hero5 {
+        height: auto; 
+    }
+    .im{
+        height: 100px;
+    }
 }
